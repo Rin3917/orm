@@ -3,7 +3,7 @@
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  *
  * @package    Fuel
- * @version    1.9-dev
+ * @version    develop
  * @author     Fuel Development Team
  * @license    MIT License
  * @copyright  2010 - 2018 Fuel Development Team
@@ -11,16 +11,6 @@
  */
 
 namespace Orm;
-
-/**
- * Record Not Found Exception
- */
-class RecordNotFound extends \OutOfBoundsException {}
-
-/**
- * Frozen Object Exception
- */
-class FrozenObject extends \RuntimeException {}
 
 class Model implements \ArrayAccess, \Iterator, \Sanitization
 {
